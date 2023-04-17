@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_navigation"
+    app:startDestination="@id/rootScreen">
+
+    <fragment
+        tools:layout="@layout/screen_root"
+        android:id="@+id/rootScreen"
+        android:name="uz.behad.elingo.ui.screens.RootScreen"
+        android:label="RootScreen">
+        <action
+            android:id="@+id/action_rootScreen_to_lesson_navigation"
+            app:destination="@id/lesson_navigation" />
+    </fragment>
+    <include app:graph="@navigation/lesson_navigation" />
+</navigation>

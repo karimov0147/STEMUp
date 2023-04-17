@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeScreen"
+        android:title="Home"
+        android:visible="true"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_bg" />
+    <item
+        android:id="@+id/dictionaryScreen"
+        android:title="Terms"
+        android:enabled="true"
+        android:visible="true"
+        android:icon="@drawable/ic_terms_bg" />
+    <item
+        android:id="@+id/quizScreen"
+        android:title="Quizzes"
+        android:enabled="true"
+        android:visible="true"
+        android:icon="@drawable/ic_quiz_bg" />
+
+
+    <item
+        android:id="@+id/developerScreen"
+        android:title="Leaderbo..."
+        android:enabled="true"
+        android:visible="true"
+        android:icon="@drawable/ic_leader_bg" />
+
+    <item
+        android:id="@+id/developedScreen"
+        android:title="Account"
+        android:enabled="true"
+        android:visible="true"
+        android:icon="@drawable/ic_account_bg" />
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/splash_navigation"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="uz.behad.elingo.ui.screens.SplashScreen"
+        android:label="SplashScreen">
+        <action
+            android:id="@+id/action_splashScreen_to_root_navigation"
+            app:destination="@id/root_navigation"
+            app:popUpTo="@id/splash_navigation"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <include app:graph="@navigation/root_navigation" />
+</navigation>

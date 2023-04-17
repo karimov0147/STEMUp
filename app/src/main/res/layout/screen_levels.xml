@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/green"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="19dp"
+            android:drawableStart="@drawable/ic_baseline_circle_24"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/nunito_medium"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/categoryTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:drawableStart="@drawable/ic_engineering"
+            android:drawableEnd="@drawable/ic_down"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/nunito_medium"
+            android:gravity="center"
+            android:text="@string/engineering"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:drawableEnd="@drawable/ic_diamond"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/nunito_medium"
+            tools:text="957"
+            android:id="@+id/diamondsTv"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/categoryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:elevation="2dp"
+        android:visibility="gone"
+        android:background="#64000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="12dp"
+            android:visibility="visible"
+            android:weightSum="4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+            tools:context=".MainActivity">
+
+
+            <LinearLayout
+                android:id="@+id/scienceLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_category_science"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/recycler_bg"
+                    android:padding="20dp"
+                    android:src="@drawable/ic_sciense" />
+
+                <TextView
+                    android:id="@+id/tv_category_science"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/science"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/techLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_category_technology"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/recycler_bg"
+                    android:padding="20dp"
+                    android:src="@drawable/ic_technology" />
+
+                <TextView
+                    android:id="@+id/tv_category_technology"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/technology"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/engineLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_category_engineering"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/recycler_bg"
+                    android:padding="20dp"
+                    android:src="@drawable/ic_engineering" />
+
+                <TextView
+                    android:id="@+id/tv_category_engineering"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/engineering"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mathLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_category_math"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/recycler_bg"
+                    android:padding="20dp"
+                    android:src="@drawable/ic_math" />
+
+                <TextView
+                    android:id="@+id/tv_category_math"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/math"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:reverseLayout="true" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

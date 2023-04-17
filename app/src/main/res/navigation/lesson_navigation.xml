@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lesson_navigation"
+    app:startDestination="@id/lessonScreen">
+
+    <fragment
+        tools:layout="@layout/screen_lesson"
+        android:id="@+id/lessonScreen"
+        android:name="uz.behad.elingo.ui.screens.LessonScreen"
+        android:label="LessonScreen">
+        <action
+            android:id="@+id/action_lessonScreen_to_lessonQuizScreen"
+            app:destination="@id/lessonQuizScreen"
+            app:popUpTo="@id/lesson_navigation" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/screen_lesson_quiz"
+        android:id="@+id/lessonQuizScreen"
+        android:name="uz.behad.elingo.ui.screens.LessonQuizScreen"
+        android:label="LessonQuizScreen">
+        <action
+            android:id="@+id/action_lessonQuizScreen_to_completedScreen"
+            app:destination="@id/completedScreen"
+            app:popUpTo="@id/lesson_navigation"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/screen_lesson_completed"
+        android:id="@+id/completedScreen"
+        android:name="uz.behad.elingo.ui.screens.CompletedScreen"
+        android:label="CompletedScreen" />
+</navigation>

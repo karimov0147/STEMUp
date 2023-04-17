@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">STEMUp</string>
+    <string name="correct">Correct</string>
+    <string name="wrong">Wrong</string>
+    <string name="continu">Continue</string>
+    <string name="ok">Ok</string>
+    <string name="Home">Loading..</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="quiz">Quiz</string>
+    <string name="correct_answer">Correct answer:</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="profile">Profile</string>
+    <string name="lesson">Lesson</string>
+    <string name="share">Share</string>
+    <string name="search">Search</string>
+    <string name="lesson_completed">Lesson completed!</string>
+    <string name="lorem">Atomic mass is a measure of the average mass of atoms of a chemical element. It is expressed in atomic mass units (amu), which are defined as 1/12 the mass of a carbon-12 atom. The atomic mass of an element is not always an integer, because it is an average of the masses of all of the</string>
+    <string name="engineering">Engineering</string>
+    <string name="science">Science</string>
+    <string name="math">Math</string>
+    <string name="technology">Technology</string>
+    <string name="you_got">Keep your progress\nYou got:</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="words">Words</string>
+    <string name="diamond">Diamonds</string>
+    <string name="finish">Finish</string>
+</resources>

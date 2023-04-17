@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/closeBtn"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="end"
+        android:src="@drawable/ic_close"
+        app:tint="@color/gray" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp">
+
+        <ImageView
+            android:id="@+id/iv_details"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@color/black"
+            android:visibility="gone" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/app_name"
+        android:fontFamily="@font/nunito_medium"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lalala"
+                android:fontFamily="@font/nunito_medium"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_share"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_bg_green"
+                android:drawableEnd="@drawable/ic_share"
+                android:gravity="center"
+                android:fontFamily="@font/nunito_medium"
+                android:paddingEnd="10dp"
+                android:text="@string/share"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:background="@color/white"
+    android:weightSum="4"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="4dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:padding="20dp"
+            android:id="@+id/iv_category_science"
+            android:background="@drawable/recycler_bg"
+            android:src="@drawable/ic_sciense" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Science"
+            android:maxLines="1"
+            android:gravity="center"
+            android:id="@+id/tv_category_science"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="4dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:padding="20dp"
+            android:id="@+id/iv_category_technology"
+            android:background="@drawable/recycler_bg"
+            android:src="@drawable/ic_technology" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Technology"
+            android:gravity="center"
+            android:maxLines="1"
+            android:id="@+id/tv_category_technology"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="4dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:padding="20dp"
+            android:id="@+id/iv_category_engineering"
+            android:background="@drawable/recycler_bg"
+            android:src="@drawable/ic_engineering" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="Engineering"
+            android:gravity="center"
+            android:id="@+id/tv_category_engineering"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="4dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:padding="20dp"
+            android:id="@+id/iv_category_math"
+            android:background="@drawable/recycler_bg"
+            android:src="@drawable/ic_math" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="Technology"
+            android:gravity="center"
+            android:id="@+id/tv_category_math"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

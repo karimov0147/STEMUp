@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/completeCoin"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:adjustViewBounds="true"
+        android:visibility="gone"
+        android:src="@drawable/ic_coin_complete" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/lastCoin"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:adjustViewBounds="true"
+        android:visibility="gone"
+        android:src="@drawable/ic_coin_last" />
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/lockCoin"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:adjustViewBounds="true"
+        android:visibility="gone"
+        android:src="@drawable/ic_coin_lock" />
+
+
+</LinearLayout>
