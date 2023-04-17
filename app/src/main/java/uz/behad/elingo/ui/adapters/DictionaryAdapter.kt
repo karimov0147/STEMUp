@@ -5,9 +5,9 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import me.zhanghai.android.fastscroll.PopupTextProvider
-import uz.behad.elingo.RecyclerUtils.toColoredSpannable
 import uz.behad.elingo.data.local.DictEntity
 import uz.behad.elingo.databinding.ItemDictionaryBinding
+import uz.behad.elingo.utils.RecyclerUtils.toColoredSpannable
 
 class DictionaryAdapter : RecyclerView.Adapter<DictionaryAdapter.ViewHolder>(), PopupTextProvider {
 

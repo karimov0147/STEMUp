@@ -9,13 +9,13 @@ import androidx.lifecycle.Observer
 import androidx.navigation.findNavController
 import by.kirich1409.viewbindingdelegate.viewBinding
 import uz.behad.elingo.R
-import uz.behad.elingo.RecyclerUtils
-import uz.behad.elingo.RecyclerUtils.gone
-import uz.behad.elingo.RecyclerUtils.visible
 import uz.behad.elingo.data.storage.LocaleStorage
 import uz.behad.elingo.databinding.ScreenLevelsBinding
 import uz.behad.elingo.ui.adapters.LevelAdapter
 import uz.behad.elingo.ui.presenters.LevelsViewModel
+import uz.behad.elingo.utils.RecyclerUtils
+import uz.behad.elingo.utils.RecyclerUtils.gone
+import uz.behad.elingo.utils.RecyclerUtils.visible
 
 class LevelsScreen : Fragment(R.layout.screen_levels) {
     private val binding by viewBinding(ScreenLevelsBinding::bind)

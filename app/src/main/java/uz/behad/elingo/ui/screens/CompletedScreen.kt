@@ -7,9 +7,9 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import by.kirich1409.viewbindingdelegate.viewBinding
 import uz.behad.elingo.R
-import uz.behad.elingo.RecyclerUtils
 import uz.behad.elingo.databinding.ScreenLessonCompletedBinding
 import uz.behad.elingo.ui.presenters.CompleteViewModel
+import uz.behad.elingo.utils.RecyclerUtils
 
 class CompletedScreen : Fragment(R.layout.screen_lesson_completed) {
     private val binding by viewBinding(ScreenLessonCompletedBinding::bind)

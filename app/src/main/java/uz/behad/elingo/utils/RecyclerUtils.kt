@@ -1,4 +1,4 @@
-package uz.behad.elingo
+package uz.behad.elingo.utils
 
 import android.graphics.Color
 import android.text.Spannable

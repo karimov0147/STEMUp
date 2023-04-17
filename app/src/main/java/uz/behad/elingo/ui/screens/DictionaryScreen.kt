@@ -12,13 +12,13 @@ import by.kirich1409.viewbindingdelegate.viewBinding
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import me.zhanghai.android.fastscroll.FastScrollerBuilder
 import uz.behad.elingo.R
-import uz.behad.elingo.RecyclerUtils.gone
-import uz.behad.elingo.RecyclerUtils.visible
 import uz.behad.elingo.data.local.DictEntity
 import uz.behad.elingo.databinding.DialogBottomBinding
 import uz.behad.elingo.databinding.ScreenDictionaryBinding
 import uz.behad.elingo.ui.adapters.DictionaryAdapter
 import uz.behad.elingo.ui.presenters.DictionaryViewModel
+import uz.behad.elingo.utils.RecyclerUtils.gone
+import uz.behad.elingo.utils.RecyclerUtils.visible
 
 class DictionaryScreen : Fragment(R.layout.screen_dictionary) {
 

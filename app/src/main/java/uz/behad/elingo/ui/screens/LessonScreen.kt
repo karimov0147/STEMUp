@@ -9,11 +9,11 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import by.kirich1409.viewbindingdelegate.viewBinding
 import uz.behad.elingo.R
-import uz.behad.elingo.RecyclerUtils
 import uz.behad.elingo.data.models.LessonModel
 import uz.behad.elingo.data.storage.LocaleStorage
 import uz.behad.elingo.databinding.ScreenLessonBinding
 import uz.behad.elingo.ui.presenters.LessonViewModel
+import uz.behad.elingo.utils.RecyclerUtils
 
 class LessonScreen : Fragment(R.layout.screen_lesson) {
     private val binding by viewBinding(ScreenLessonBinding::bind)

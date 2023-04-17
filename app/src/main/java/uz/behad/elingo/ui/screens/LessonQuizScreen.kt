@@ -10,13 +10,13 @@ import androidx.navigation.fragment.findNavController
 import by.kirich1409.viewbindingdelegate.viewBinding
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import uz.behad.elingo.R
-import uz.behad.elingo.RecyclerUtils
 import uz.behad.elingo.data.models.LessonModel
 import uz.behad.elingo.data.storage.LocaleStorage
 import uz.behad.elingo.databinding.DialogCorrectBinding
 import uz.behad.elingo.databinding.DialogWrongBinding
 import uz.behad.elingo.databinding.ScreenLessonQuizBinding
 import uz.behad.elingo.ui.adapters.VariantLessonAdapter
+import uz.behad.elingo.utils.RecyclerUtils
 
 class LessonQuizScreen : Fragment(R.layout.screen_lesson_quiz) {
     private val binding by viewBinding(ScreenLessonQuizBinding::bind)
