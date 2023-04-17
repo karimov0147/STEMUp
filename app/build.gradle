@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'uz.behad.STEMUp'
+    namespace 'com.hackerstreet.stemup'
     compileSdk 33
 
     defaultConfig {
-        applicationId "uz.behad.STEMUp"
+        applicationId "com.hackerstreet.stemup"
         minSdk 21
         targetSdk 33
         versionCode 1

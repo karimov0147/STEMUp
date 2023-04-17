@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/splashScreen"
-        android:name="uz.behad.STEMUp.ui.screens.SplashScreen"
+        android:name="com.hackerstreet.stemup.ui.screens.SplashScreen"
         android:label="SplashScreen">
         <action
             android:id="@+id/action_splashScreen_to_root_navigation"

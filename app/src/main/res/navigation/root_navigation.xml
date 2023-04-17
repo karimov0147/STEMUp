@@ -8,7 +8,7 @@
     <fragment
         tools:layout="@layout/screen_root"
         android:id="@+id/rootScreen"
-        android:name="uz.behad.STEMUp.ui.screens.RootScreen"
+        android:name="com.hackerstreet.stemup.ui.screens.RootScreen"
         android:label="RootScreen">
         <action
             android:id="@+id/action_rootScreen_to_lesson_navigation"
