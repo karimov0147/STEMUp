@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'uz.behad.elingo'
+    namespace 'uz.behad.STEMUp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "uz.behad.elingo"
+        applicationId "uz.behad.STEMUp"
         minSdk 21
         targetSdk 33
         versionCode 1

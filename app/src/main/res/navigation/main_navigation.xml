@@ -8,27 +8,27 @@
     <fragment
         android:id="@+id/homeScreen"
         tools:layout="@layout/screen_levels"
-        android:name="uz.behad.elingo.ui.screens.LevelsScreen"
+        android:name="uz.behad.STEMUp.ui.screens.LevelsScreen"
         android:label="LevelsScreen" />
     <fragment
         tools:layout="@layout/screen_dictionary"
         android:id="@+id/dictionaryScreen"
-        android:name="uz.behad.elingo.ui.screens.DictionaryScreen"
+        android:name="uz.behad.STEMUp.ui.screens.DictionaryScreen"
         android:label="DictionaryScreen" />
     <fragment
         tools:layout="@layout/screen_quiz"
         android:id="@+id/quizScreen"
-        android:name="uz.behad.elingo.ui.screens.QuizScreen"
+        android:name="uz.behad.STEMUp.ui.screens.QuizScreen"
         android:label="QuizScreen" />
     <fragment
         tools:layout="@layout/screen_developed"
         android:id="@+id/developedScreen"
-        android:name="uz.behad.elingo.ui.screens.DevelopedScreen"
+        android:name="uz.behad.STEMUp.ui.screens.DevelopedScreen"
         android:label="DevelopedScreen" />
     <fragment
         tools:layout="@layout/screen_developer"
         android:id="@+id/developerScreen"
-        android:name="uz.behad.elingo.ui.screens.DeveloperScreen"
+        android:name="uz.behad.STEMUp.ui.screens.DeveloperScreen"
         android:label="DeveloperScreen" />
 
 

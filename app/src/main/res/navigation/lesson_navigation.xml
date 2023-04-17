@@ -8,7 +8,7 @@
     <fragment
         tools:layout="@layout/screen_lesson"
         android:id="@+id/lessonScreen"
-        android:name="uz.behad.elingo.ui.screens.LessonScreen"
+        android:name="uz.behad.STEMUp.ui.screens.LessonScreen"
         android:label="LessonScreen">
         <action
             android:id="@+id/action_lessonScreen_to_lessonQuizScreen"
@@ -18,7 +18,7 @@
     <fragment
         tools:layout="@layout/screen_lesson_quiz"
         android:id="@+id/lessonQuizScreen"
-        android:name="uz.behad.elingo.ui.screens.LessonQuizScreen"
+        android:name="uz.behad.STEMUp.ui.screens.LessonQuizScreen"
         android:label="LessonQuizScreen">
         <action
             android:id="@+id/action_lessonQuizScreen_to_completedScreen"
@@ -29,6 +29,6 @@
     <fragment
         tools:layout="@layout/screen_lesson_completed"
         android:id="@+id/completedScreen"
-        android:name="uz.behad.elingo.ui.screens.CompletedScreen"
+        android:name="uz.behad.STEMUp.ui.screens.CompletedScreen"
         android:label="CompletedScreen" />
 </navigation>
